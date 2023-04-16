@@ -1,0 +1,8 @@
+<div class="warrior-info">
+    <h2 class="name">{{warrior.name}}</h2>
+    <p class="health">Health: {{warrior.health}}</p>
+    <p class="stamina">Stamina: {{warrior.stamina}}</p>
+    <p class="armor-name">Armor: {{warrior.armor.name}}</p>
+    <p class="weapon-name">Weapon: {{warrior.weapon.name}}</p>
+    <p class="shield" *ngIf="warrior.shield">Shield: {{warrior.shield.name}}</p>
+</div>

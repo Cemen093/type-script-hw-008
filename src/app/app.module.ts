@@ -1,18 +1,22 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { WarriorsComponent } from './warriors/warriors.component';
+import { WarriorComponent } from './warrior/warrior.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    WarriorsComponent,
+    WarriorComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [WarriorsComponent]
 })
 export class AppModule { }

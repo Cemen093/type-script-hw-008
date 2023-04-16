@@ -1,0 +1,27 @@
+.Warriors-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+  .Warriors-list .card-title {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .Warriors-list > div {
+    margin-bottom: 10px;
+  }
